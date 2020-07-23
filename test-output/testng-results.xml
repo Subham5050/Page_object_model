@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27163" started-at="2020-07-23T21:17:17 IST" finished-at="2020-07-23T21:17:44 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27163" started-at="2020-07-23T21:17:17 IST" finished-at="2020-07-23T21:17:44 IST">
+      <class name="com.TestScriptTAP.TestScript2">
+        <test-method status="PASS" signature="extendreport()[pri:0, instance:com.TestScriptTAP.TestScript2@2a17b7b6]" name="extendreport" is-config="true" duration-ms="3" started-at="2020-07-23T21:17:17 IST" finished-at="2020-07-23T21:17:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extendreport -->
+        <test-method status="PASS" signature="bfrcls()[pri:0, instance:com.TestScriptTAP.TestScript2@2a17b7b6]" name="bfrcls" is-config="true" duration-ms="5241" started-at="2020-07-23T21:17:23 IST" finished-at="2020-07-23T21:17:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrcls -->
+        <test-method status="PASS" signature="MD_Indexing_TC02()[pri:0, instance:com.TestScriptTAP.TestScript2@2a17b7b6]" name="MD_Indexing_TC02" duration-ms="15832" started-at="2020-07-23T21:17:28 IST" finished-at="2020-07-23T21:17:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MD_Indexing_TC02 -->
+        <test-method status="PASS" signature="last()[pri:0, instance:com.TestScriptTAP.TestScript2@2a17b7b6]" name="last" is-config="true" duration-ms="30" started-at="2020-07-23T21:17:44 IST" finished-at="2020-07-23T21:17:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last -->
+        <test-method status="PASS" signature="TearDown(org.testng.ITestResult)[pri:0, instance:com.TestScriptTAP.TestScript2@2a17b7b6]" name="TearDown" is-config="true" duration-ms="0" started-at="2020-07-23T21:17:44 IST" finished-at="2020-07-23T21:17:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MD_Indexing_TC02 status=SUCCESS method=TestScript2.MD_Indexing_TC02()[pri:0, instance:com.TestScriptTAP.TestScript2@2a17b7b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.TestScriptTAP.TestScript2 -->
+      <class name="com.TestScriptTAP.TestScript">
+        <test-method status="PASS" signature="extendreport()[pri:0, instance:com.TestScriptTAP.TestScript@5d76b067]" name="extendreport" is-config="true" duration-ms="101" started-at="2020-07-23T21:17:17 IST" finished-at="2020-07-23T21:17:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extendreport -->
+        <test-method status="PASS" signature="bfrcls()[pri:0, instance:com.TestScriptTAP.TestScript@5d76b067]" name="bfrcls" is-config="true" duration-ms="5733" started-at="2020-07-23T21:17:17 IST" finished-at="2020-07-23T21:17:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrcls -->
+        <test-method status="PASS" signature="TC01()[pri:0, instance:com.TestScriptTAP.TestScript@5d76b067]" name="TC01" duration-ms="7" started-at="2020-07-23T21:17:23 IST" finished-at="2020-07-23T21:17:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="TearDown(org.testng.ITestResult)[pri:0, instance:com.TestScriptTAP.TestScript@5d76b067]" name="TearDown" is-config="true" duration-ms="1" started-at="2020-07-23T21:17:23 IST" finished-at="2020-07-23T21:17:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01 status=SUCCESS method=TestScript.TC01()[pri:0, instance:com.TestScriptTAP.TestScript@5d76b067] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="last()[pri:0, instance:com.TestScriptTAP.TestScript@5d76b067]" name="last" is-config="true" duration-ms="180" started-at="2020-07-23T21:17:23 IST" finished-at="2020-07-23T21:17:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last -->
+      </class> <!-- com.TestScriptTAP.TestScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
