@@ -11,13 +11,17 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class webdrivercommlib {
-public void waitforpagetoload(){
+public void waitforpagetoload()
+	{
 	Browser.driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
-}
-public void waitforelemetpresent(WebElement wb){
+	}
+
+public void waitforelemetpresent(WebElement wb)
+	{
 	WebDriverWait wait=new WebDriverWait(Browser.driver,20);
 	wait.until(ExpectedConditions.visibilityOf(wb));
-}
+	}
+
 public boolean verifytext(String expectedResult,WebElement wb){
 	boolean flag=false;
 	String ActualResult=wb.getText();
